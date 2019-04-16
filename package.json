@@ -2,9 +2,12 @@
   "name": "stepbystep",
   "version": "1.0.0",
   "description": "step by step guide in making an app",
+  "homepage": "https://lovelyladylove.github.io/stepbystep/",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "lovelyladylove",
   "license": "ISC",
@@ -14,6 +17,7 @@
   "dependencies": {
     "ejs": "^2.6.1",
     "express": "^4.16.4",
+    "gh-pages": "^2.0.1",
     "mongoose": "^5.3.14",
     "socket.io": "^2.2.0"
   }
