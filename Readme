@@ -1,0 +1,22 @@
+*Initial step for making an app
+mkdir example
+create a file index.js
+install package.json and all the dependencies
+inside create a public folder
+create a file index.html
+create a file style.css and linked it up to index.html
+
+*Setup Websockets
+install socket.io
+socket setup in index.js
+script link in index.html
+create a file chat.js
+make socket connection
+console.log the socket.id
+
+*Create the Chatroom
+insert input in index.html
+listen to events
+
+*Broadcasting messages
+Add User typing .....
